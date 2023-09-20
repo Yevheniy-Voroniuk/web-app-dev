@@ -1,0 +1,107 @@
+.header-block {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 164px;
+    height: 54px;
+}
+
+.button-group .btn {
+    margin-left: 7px;
+    font-weight: bold;
+    color: beige;
+    border: none;
+}
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    margin: 0;
+    background-color: black;
+    padding: 14px 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px dotted dimgray;
+}
+
+.sidebar ul li a {
+    text-align: left;
+    text-decoration: none;
+    color: beige;
+    font-weight: bold;
+    display: block;
+    padding: 8px 16px;
+}
+
+.sidebar ul li a:hover {
+    background-color: cornflowerblue;
+}
+
+.content {
+    margin-top: 30px;
+    margin-left: 185px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    margin: 0 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.6);
+    transition: transform 0.5s ease;
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.column {
+    margin: 0 20px;
+    color: beige;
+}
+
+.column h5 {
+    font-weight: bold;
+    margin: 10px 0 4px;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column ul li {
+    margin-bottom: 2px;
+    margin-left: 18px;
+}
