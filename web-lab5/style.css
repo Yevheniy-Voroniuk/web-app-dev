@@ -1,0 +1,129 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.task1,
+.task2,
+.task3,
+.task4 {
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.background-task1,
+.background-task3 {
+    background-color: gainsboro;
+    padding: 30px;
+}
+
+#background-chat {
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+    margin: 0;
+    padding: 0;
+}
+
+.chat {
+    border-radius: 12px;
+    background-color: #fff;
+    height: auto;
+    width: 700px;
+    margin: 30px;
+    padding: 50px;
+    word-wrap: break-word;
+}
+
+.user1 {
+    padding: 30px;
+}
+
+.user2 {
+    padding: 30px;
+}
+
+#user1-input,
+#user2-input {
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 15px;
+}
+
+.messageUser1 {
+    display: flex;
+    justify-content: flex-start;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+
+.messageUser2 {
+    display: flex;
+    justify-content: flex-end;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.btn {
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    margin-top: 30px;
+    border: none;
+}
+
+#ukrainianText,
+#transliteratedText {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 15px;
+}
+
+.background-task4 {
+    font-size: 18px;
+    background-color: gainsboro;
+    padding: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-container {
+    padding: 15px;
+    background-color: white;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+
+#dayOfWeek {
+    font-weight: bold;
+    font-size: 18px;
+}
