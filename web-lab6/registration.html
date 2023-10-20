@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" class="registration-html">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real Estate Agency Registration</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-additional.css" />
+    <script
+      src="https://kit.fontawesome.com/70b65d0b5d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/imask"></script>
+  </head>
+  <body>
+    <header>
+      <div class="lds-heart">
+        <div></div>
+      </div>
+      <div class="title">Real estate agency</div>
+      <ul>
+        <li>
+          <a href="main.html">Головна</a>
+        </li>
+        <li>
+          <a href="faq.html">FAQ</a>
+        </li>
+        <li>
+          <a href="contacts.html">Контакти</a>
+        </li>
+        <li>
+          <a href="crm.html">CRM</a>
+        </li>
+        <li class="authorization-button">
+          <a href="authorization.html">Увійти</a>
+        </li>
+        <li class="registration-button">
+          <a href="registration.html">Зареєструватись</a>
+        </li>
+      </ul>
+    </header>
+
+    <div class="page">
+      <h1>Реєстрація</h1>
+      <form id="registration-form">
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" />
+            <div class="error" id="emailError"></div>
+        </div>
+
+        <div>
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" />
+            <div class="error" id="passwordError"></div>
+        </div>
+
+        <div>
+            <label for="surname">Прізвище:</label>
+            <input type="text" id="surname" name="surname" />
+            <div class="error" id="surnameError"></div>
+        </div>
+
+        <div>
+            <label for="name">Ім’я:</label>
+            <input type="text" id="name" name="name" />
+            <div class="error" id="nameError"></div>
+        </div>
+
+        <div>
+            <label for="middleName">По батькові:</label>
+            <input type="text" id="middleName" name="middleName" />
+            <div class="error" id="middleNameError"></div>
+        </div>
+
+        <div>
+            <label for="dob">Дата народження:</label>
+            <input type="date" id="dob" name="dob" />
+            <div class="error" id="dobError"></div>
+        </div>
+
+        <div>
+            <label for="group">Вибір групи:</label>
+            <select id="group" name="group">
+                <option value=""></option>
+                <option value="IA-21">ІА-21</option>
+                <option value="IA-22">ІА-22</option>
+                <option value="IA-23">ІА-23</option>
+                <option value="IA-24">ІА-24</option>
+            </select>
+            <div class="error" id="groupError"></div>
+        </div>
+
+        <div>
+            <label for="phone">Телефон:</label>
+            <input type="text" name="phone" id="phone" />
+            <div class="error" id="phoneError"></div>
+        </div>
+
+        <div>
+            <label for="male">Чоловік</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female">Жінка</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <div class="error " id="genderError"></div>
+        </div>
+
+        <div>
+            <label for="file">Завантажити файл:</label>
+            <input type="file" id="fileInput" name="file" />
+        </div>
+
+        <button type="submit" id="submitButton">Відправити</button>
+      </form>
+    </div>
+
+    <div id="table-div">
+        <table id="table">
+            <tr>
+                <td>Дії</td>
+                <td>Email</td>
+                <td>Пароль</td>
+                <td>Прізвище</td>
+                <td>Ім’я</td>
+                <td>По батькові</td>
+                <td>Дата народження</td>
+                <td>Вибір групи</td>
+                <td>Номер</td>
+                <td>Стать</td>
+                <td>Завантажений файл</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="btn-id">
+        <button onclick="performAction('delete')">Видалити</button>
+        <button onclick="performAction('duplicate')">Дублювати</button>
+    </div>
+
+    <footer>
+      <a href="https://t.me/woocle1">
+        <i class="fa-brands fa-telegram"></i> Telegram
+      </a>
+      <a href="tel:+380989143506">
+        <i class="fa-solid fa-phone"></i> Зателефонувати
+      </a>
+      <a href="mailto:andriitiuska@gmail.com">
+        <i class="fa-solid fa-envelope"></i> Написати нам
+      </a>
+      <a href="viber://chat?number=+380687246753">
+        <i class="fa-brands fa-viber"></i> Viber
+      </a>
+    </footer>
+
+    <script src="js/phone.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/table.js"></script>
+  </body>
+</html>
