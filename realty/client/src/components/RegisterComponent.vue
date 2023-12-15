@@ -10,6 +10,7 @@
                 type="text"
                 id="name"
                 name="name"
+                maxlength="25"
                 required
                 v-model="formData.name"
                 @input="validate($event.target.name)"
@@ -25,6 +26,7 @@
                 type="text"
                 id="surname"
                 name="surname"
+                maxlength="40"
                 required
                 v-model="formData.surname"
                 @input="validate($event.target.name)"

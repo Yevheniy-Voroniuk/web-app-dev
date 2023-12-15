@@ -7,6 +7,11 @@
     font-family: 'Inter', sans-serif;
 }
 
+.photo-item {
+    min-width: 350px;
+}
+
+
 .wrapper {
     min-height: calc(100vh - 200px);
 }
@@ -375,7 +380,7 @@ footer a:hover {
     font-size: 22px;
     font-weight: 400;
     text-align: center;
-    vertical-align: middle;
+    /*vertical-align: middle;*/
 }
 
 #table td {
@@ -398,12 +403,12 @@ footer a:hover {
 
 .realtyPhoto {
     max-height: 200px;
-    max-width: 200px;
+    max-width: 300px;
 }
 
 .realtyPhoto:hover {
-    transform: scale(1.25);
-    transition: transform 1.75s;
+    transform: scale(1.05);
+    transition: transform 1s;
 }
 
 @media (max-width: 1250px) {

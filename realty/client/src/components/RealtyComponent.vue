@@ -7,7 +7,7 @@
         </button>
         <table id="table">
           <tr>
-            <td>Фото</td>
+            <td class="photo-item-desc">Фото</td>
             <td>Тип</td>
             <td>Місто</td>
             <td>Площа, м²</td>

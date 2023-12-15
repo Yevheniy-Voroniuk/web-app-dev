@@ -8,7 +8,7 @@
         <table id="table">
           <tr>
             <td>Користувач</td>
-            <td>Нерухомість</td>
+            <td class="photo-item">Нерухомість</td>
             <td>Сервіс</td>
             <td>Ціна</td>
             <td>Дата</td>
